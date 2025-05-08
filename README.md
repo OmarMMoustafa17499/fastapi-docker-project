@@ -5,11 +5,10 @@
 ### Architecture
 
 
-+-------------+     +-------------+     +-----------+
-|  NGINX      | --> |  FastAPI    | --> |  PostgreSQL
-|  (Reverse   |     |  Backend    | --> |  Redis     |
-|  Proxy)     |     |  API        |     |  Cache     |
-+-------------+     +-------------+     +-----------+
+ NGINX      | --> |  FastAPI    | --> |  PostgreSQL |
+ Reverse    |     |  Backend    | --> |  Redis      |
+ Proxy      |     |  API        |     |  Cache      |
+
 
 
 ### Usage
