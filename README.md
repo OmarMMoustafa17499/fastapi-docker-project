@@ -1,6 +1,9 @@
+
 ## FastAPI + PostgreSQL + Redis + NGINX (Dockerized)
 
+ 
 ### Architecture
+
 
 +-------------+     +-------------+     +-----------+
 |  NGINX      | --> |  FastAPI    | --> |  PostgreSQL
